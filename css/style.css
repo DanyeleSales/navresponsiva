@@ -67,4 +67,22 @@
       display: flex;
       margin-left: 319px;
     }
+
+    .nav__menu-list__responsive__visible{
+      height: 100px;
+      top: 0;
+      background-color: orange;    
+  }
+  
+  .nav__menu-list__responsive__hidden{
+    background-color: pink;
+    z-index: 99;
+    
+  }
+  .nav{
+    position: fixed;
+  }
+  .nav__menu-list{
+    display:none;
+  }
   }  
